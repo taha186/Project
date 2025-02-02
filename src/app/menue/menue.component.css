@@ -1,0 +1,35 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body{
+    background-color: #f2f2f2;
+}
+.childmenue{
+    background-color: #f2f2f2;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-top: 50px;
+    padding: 15px;
+    box-shadow: -5px -5px 10px 0px;
+ }.childmenue h1{
+    font-weight: 800;
+    font-size: 25px;
+    font-style: italic;
+
+ }.childmenue span{
+    font-size: 20px;
+    line-height: 5px;
+    font-weight: 600;
+   
+    
+
+ }
+ 

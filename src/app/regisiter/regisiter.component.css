@@ -1,0 +1,166 @@
+.left{
+    border-radius: 36px;
+   
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+  
+    
+    
+}.left input{
+    width: 244px;
+    height: 34px;
+   border-radius: 20px;
+   background-color: #d9d9d9;
+   
+    
+}.parent{
+    
+    background-color: #f8f9fa;
+    border-radius: 36px;
+    margin: auto;
+    box-shadow: 0PX 10px 10px 10PX #EDECEC;
+    height: 434px;
+    margin-top: 25px;
+  
+    
+   
+}.left label{
+    padding: 10px;
+   font-family: var(--font-primary);
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 10px;
+   align-items: center;
+   
+}.left button{
+   
+    
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-style: italic;
+    align-content: center;
+}.parent .left h1{
+    font-weight: 400;
+    font-size: 32px;
+    color: #Dc0801;
+    margin-top: 15px;
+    
+    margin-bottom: 10px;
+    
+   
+    
+    
+}.super .imagehover picture img {
+    
+
+    
+    filter: drop-shadow(0px 10px 10px #0006);
+    
+   
+    
+}.super .imagehover :hover{
+    animation: vib 1s infinite;}
+
+@keyframes vib{
+    0%{transform: translate(1px,1px); transform: rotate(0deg);}
+    10%{transform: translate(-1px,-2px); transform: rotate(-1deg);}
+    20%{transform: translate(-3px,0px); transform: rotate(1deg);}
+    30%{transform: translate(3px,2px); transform: rotate(0deg);}
+    40%{transform: translate(1px,-1px); transform: rotate(1deg);}
+    50%{transform: translate(-1px,2px); transform: rotate(-1deg);}
+    60%{transform: translate(1px,1px); transform: rotate(0deg);}
+    70%{transform: translate(-1px,-2px); transform: rotate(-1deg);}
+    80%{transform: translate(-3px,0px); transform: rotate(1deg);}
+    90%{transform: translate(3px,2px); transform: rotate(0deg);}
+    100%{transform: translate(1px,-1px); transform: rotate(1deg);}
+    
+}
+
+
+.left .taha{
+    display: flex;
+    align-items: center;
+   flex-direction: row;
+}.left .taha .label5{
+    margin-right: 20px;
+}img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+   
+    
+
+}
+
+@media screen and (max-width: 992px) {
+    img{
+        margin-top: 50px;
+        margin-left: 40px;
+      }
+   
+    
+}
+@media screen and (max-width: 768px){
+
+    img{
+       width: 180px;
+       margin-top: 150px;
+       margin-left: 5px;
+      }
+   
+}
+
+
+@media screen and (max-width: 576px) {
+   
+  
+   .left input{
+    width: 150px;
+    height: 25px;
+   border-radius: 20px;
+   background-color: #d9d9d9;
+   
+    
+}.left input{
+    width: 244px;
+    height: 34px;
+   border-radius: 20px;
+   background-color: #d9d9d9;
+   
+    
+}.img{
+    display: none;
+}
+.super{
+    margin-left: 30px;
+    
+    width: 340px;
+}@media screen and (max-width: 400px){
+    .super{
+        width: 300px;}
+         
+}.left input{
+    width: 214px;
+    height: 44px;
+   border-radius: 20px;
+   background-color: #d9d9d9;
+   
+    
+}.parent{
+    height: 500px;
+}.left{
+    justify-content: center;
+    align-items: center;
+}
+
+
+}

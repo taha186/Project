@@ -1,44 +1,70 @@
-.left{
-    border-radius: 36px;
-   
-    
+.super{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.Regisiter .child{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 25px;
+    align-items: center;
   
+
+}.Regisiter .child input{
+    width: 300px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
     
+}.Regisiter{
+    margin-top: 30px;
     
-}.left input{
-    width: 244px;
-    height: 34px;
-   border-radius: 20px;
-   background-color: #d9d9d9;
+}
+.div {
+    
+    text-align: center;
+    width: 200px;
+    margin-left: 60px;
    
+    margin-top: 10px;
     
-}.parent{
+}.div p{
+    margin-top: -10px;
+}
+.parent{
     
     background-color: #f8f9fa;
     border-radius: 36px;
-    margin: auto;
+
     box-shadow: 0PX 10px 10px 10PX #EDECEC;
-    height: 434px;
+    height: auto;
+    width: 500px;
     margin-top: 25px;
-  
+   
     
    
-}.left label{
+}
+
+.Regisiter label{
     padding: 10px;
    font-family: var(--font-primary);
    font-weight: 700;
    font-size: 22px;
    line-height: 10px;
    align-items: center;
+  
+  
+ 
+  
    
-}.left button{
-   
+}
+
+  .Regisiter button{
     
     border-radius: 20px;
+    text-align: center;
     background-color: #d9d9d9;
     color: black;
     justify-content: center;
@@ -46,11 +72,13 @@
     font-weight: 300;
     font-style: italic;
     align-content: center;
-}.parent .left h1{
+    
+} .parent h1{
     font-weight: 400;
     font-size: 32px;
     color: #Dc0801;
     margin-top: 15px;
+    text-align: center;
     
     margin-bottom: 10px;
     
@@ -84,19 +112,18 @@
 }
 
 
-.left .taha{
-    display: flex;
-    align-items: center;
-   flex-direction: row;
-}.left .taha .label5{
-    margin-right: 20px;
-}img{
+
+img{
     width: 100%;
     margin-top: 10px;
 }
-
 @media screen and (min-width: 1200px) {
-   
+    img{
+        margin-top: 50px;
+        margin-left: 40px;
+        width: 500px;
+      }
+     
     
 
 }
@@ -105,6 +132,16 @@
     img{
         margin-top: 50px;
         margin-left: 40px;
+        width: 300px;
+      }.parent{
+        width: 400px;
+      }.Regisiter .child input{
+        width: 200px;
+
+      }.div{
+        width: 250px;
+        font-size: 12px;
+        height: 20px;
       }
    
     
@@ -112,55 +149,37 @@
 @media screen and (max-width: 768px){
 
     img{
-       width: 180px;
-       margin-top: 150px;
-       margin-left: 5px;
+       width: 150px;
+       
+      }.parent{
+        width: 340px;
       }
+      .Regisiter label{
+        padding: 5px;
+       font-family: var(--font-primary);
+       font-weight: 900;
+       font-size: 20px;
+       
+    }
+    
    
 }
 
 
 @media screen and (max-width: 576px) {
-   
-  
-   .left input{
-    width: 150px;
-    height: 25px;
-   border-radius: 20px;
-   background-color: #d9d9d9;
-   
-    
-}.left input{
-    width: 244px;
-    height: 34px;
-   border-radius: 20px;
-   background-color: #d9d9d9;
-   
-    
-}.img{
-    display: none;
-}
-.super{
-    margin-left: 30px;
-    
-    width: 340px;
-}@media screen and (max-width: 400px){
     .super{
-        width: 300px;}
-         
-}.left input{
-    width: 214px;
-    height: 44px;
-   border-radius: 20px;
-   background-color: #d9d9d9;
+        display: flex;
+        flex-direction: column;
+    }
    
-    
-}.parent{
-    height: 500px;
-}.left{
-    justify-content: center;
-    align-items: center;
+   
+
+
+
+
+}@media screen and (max-width: 400px){
+   
 }
 
 
-}
+

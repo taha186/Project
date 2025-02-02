@@ -13,10 +13,10 @@ export class RegisiterComponent {
   constructor(private _AuthservicesService:AuthservicesService,private _Router:Router){}
   formgrioup:FormGroup=new FormGroup({
     email:new FormControl('',[Validators.required,Validators.email]),
-    displayName:new FormControl(''),
-    phoneNumber:new FormControl('',[Validators.required]),
+    displayName:new FormControl('',[Validators.required]),
+    phoneNumber:new FormControl('',[Validators.required,Validators.pattern(/^01[0125][0-9]{8}$/)]),
     password:new FormControl('',[Validators.required]),
-    role:new FormControl('')
+    role:new FormControl('',[Validators.required])
     
    
   });

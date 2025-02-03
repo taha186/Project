@@ -22,9 +22,9 @@
                            
                         </div>
                     </div>
-                    <div class="Regisiter" style="margin-right: 40px;">
+                    <div class="Regisiter" style="margin-right: 2px;">
                         <div class="child">
-                         <label for="displayName">displayName</label>
+                         <label for="displayName">Name</label>
                          <input type="displayName" id="displayName" class="form-control" formControlName="displayName">
              
                         </div>
@@ -34,9 +34,9 @@
                             
                          </div>
                      </div>
-                     <div class="Regisiter" style="margin-right: 40px;">
+                     <div class="Regisiter" style="margin-right: 55px;">
                         <div class="child">
-                         <label for="phoneNumber">phoneNumber</label>
+                         <label for="phoneNumber">phone-Number</label>
                          <input type="phoneNumber" id="phoneNumber" class="form-control" formControlName="phoneNumber">
              
                         </div>
@@ -59,16 +59,22 @@
                          </div>
                      </div>
                      <div class="Regisiter" >
-                        <div class="child">
-                         <label for="role">role</label>
-                         <input type="role" id="role" class="form-control" formControlName="role">
-             
-                        </div>
-                         <div class="div alert alert-danger  mx-auto"  *ngIf="formgrioup.get('role')?.errors && formgrioup.get('role')?.touched" >
-                             <p *ngIf="formgrioup.get('role')?.getError('required')" >role is required</p>
-                             
+                        <div class="form-check d-flex">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Are you Owner?
+                                </label>
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" formControlName="role" value="Owner">
                             
-                         </div>
+                         <div class="div alert alert-danger  mx-auto"  *ngIf="formgrioup.get('role')?.errors && formgrioup.get('role')?.touched" >
+                            <p *ngIf="formgrioup.get('role')?.getError('required')" >role is required</p>
+                            
+                           
+                        </div>
+                            
+                          </div>
+
+
+                        
                      </div>
 
                      

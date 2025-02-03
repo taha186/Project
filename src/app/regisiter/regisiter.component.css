@@ -59,6 +59,12 @@
  
   
    
+}#flexRadioDefault1{
+    width: 40px;
+    height: 35px;
+    margin-left: 25px;
+   border: 1px solid #Dc0801;
+   
 }
 
   .Regisiter button{
@@ -121,7 +127,7 @@ img{
     img{
         margin-top: 50px;
         margin-left: 40px;
-        width: 500px;
+        width: 400px;
       }
      
     

@@ -25,12 +25,8 @@ export class RegisiterComponent {
 
   hellwo():void{
 
-    
-    
     console.log(this.formgrioup.value);
     
-    
-   
     this._AuthservicesService.setregisiter(this.formgrioup.value).subscribe({
       next:(response)=>{
         
@@ -40,10 +36,6 @@ export class RegisiterComponent {
         this._Router.navigate(['/login'])
        
 
-        
-       
-        
-
       },error:(err)=>{
         console.log(err);
         
@@ -51,10 +43,5 @@ export class RegisiterComponent {
       }
     })
  
-   
-     
-   
-    
-
   }
 }

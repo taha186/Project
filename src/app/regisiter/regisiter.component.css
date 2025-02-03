@@ -158,10 +158,10 @@ img{
        width: 150px;
        
       }.parent{
-        width: 340px;
+        width: 380px;
       }
       .Regisiter label{
-        padding: 5px;
+        padding: 8px;
        font-family: var(--font-primary);
        font-weight: 900;
        font-size: 20px;
